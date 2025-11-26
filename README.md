@@ -22,7 +22,7 @@ El proyecto demuestra cómo construir una aplicación escalable, mantenible y ag
 │  Use Cases, Servicio, Puertos       │
 │  ❌ Sin tecnología, sin anotaciones │
 └─────────────────────────────────────┘
-            ↕ (Interfaces)
+            ↕ 
 ┌─────────────────────────────────────┐
 │    DOMAIN (Reglas de Negocio)       │
 │  Entidades, Value Objects           │
@@ -515,7 +515,7 @@ Desarrollado como ejemplo de **Arquitectura Hexagonal con Quarkus**.
 
 ## ❓ Preguntas Frecuentes
 
-### **¿Por qué tres capas?**
+### **¿Por qué tres capas (Hexagonos)?**
 Domain (puro) → Application (lógica) → Framework (técnico). Cada una tiene una responsabilidad clara.
 
 ### **¿Por qué Panache?**
